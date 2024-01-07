@@ -2,7 +2,7 @@ import Breeds from "../pages/Breeds";
 
 export const routerBreeds = [
     {
-        path:"breeds",
+        path:"/test-tkram/breeds",
         element:<Breeds />
     }
 ]

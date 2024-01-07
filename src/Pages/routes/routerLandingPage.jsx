@@ -1,7 +1,7 @@
 import LandingPage from '../LandingPage'
 export const routerLandingPage = [
     {
-      path: "",
+      path: "/test-tkram/",
       element: <LandingPage />,
     },
   ];

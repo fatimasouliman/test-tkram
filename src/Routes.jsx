@@ -6,7 +6,7 @@ import { routerBreeds } from "./modules/Breeds/routes/routerBreeds";
 
 export const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/test-tkram",
       element: <App />,
       children: [ 
            ...routerLandingPage,

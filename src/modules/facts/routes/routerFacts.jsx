@@ -2,7 +2,7 @@ import Facts from '../pages/Facts'
 
 export const routerFacts = [
     {
-      path: "/fact",
+      path: "/test-tkram/fact",
       element: <Facts />,
     },
   ];
