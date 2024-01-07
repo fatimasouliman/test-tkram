@@ -1,0 +1,83 @@
+.hero{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 2rem;
+    padding-top: 5rem;
+    
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.circle{
+    color: white;
+}
+.line{
+    width: 0.3rem;
+    height: 10rem;
+    color: blue;
+    background: linear-gradient(black,blue);
+    border-radius: 1rem;
+}
+
+.tags svg {
+    color: white;
+}
+.line-down{
+    width: 0.3rem;
+    height: 10rem;
+    color: blue;
+    background: linear-gradient(blue,black);
+    border-radius: 1rem;
+}
+.hero .right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hero h1{
+    color: white;
+    font-size: 4rem;
+}
+.hero p{
+    color: white;
+    font-size: 1.1rem;
+}
+
+.btn-section{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+.input-group{
+    position: relative!important;
+    width: 60%!important;
+}
+.input-group .btn{
+    position: absolute!important;
+    right: 0!important;
+    width: 40%;
+}
+.btn-section .btn-second{
+    width: 30%!important;
+    height: fit-content;
+    background-color: transparent!important;
+}
+.down-part p{
+    color: white;
+}
+.leading{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    padding-left: 0!important;
+}
+.leading li img{
+    width: 5rem;
+}

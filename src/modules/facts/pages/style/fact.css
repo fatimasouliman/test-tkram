@@ -1,0 +1,21 @@
+.fact{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../../assets/images/backGround.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem;
+}
+.fact h1{
+    color: white;
+    text-align: center;
+}
+.fact .cards{
+    justify-content: center;
+    padding-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: 100%;
+    overflow: auto;
+}

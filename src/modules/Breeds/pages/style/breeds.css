@@ -1,0 +1,25 @@
+.breeds{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../../assets/images/backGround.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem;
+}
+.breeds h1{
+    color: white;
+    text-align: center;
+}
+.breeds .table{
+    padding-top: 2rem;
+    background-color: transparent!important;
+    color: white;
+}
+.breeds .table tr th{
+    background-color: #ffffff75!important;
+    text-align: center;
+}
+.breeds .table tr td{
+    
+    text-align: center;
+}
